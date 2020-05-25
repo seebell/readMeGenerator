@@ -1,24 +1,23 @@
 generateMarkdown = (answers) => {
-
   const {
-    badges,
     title,
     description,
     url,
     userStory,
     installation,
     usage,
-    contribution,
+    contribute,
     license,
     tests,
+    userEmail,
     userProfile
     }
-
-  // let answers = title + "\n" + description + "\n" + installation + "\n" + usage + "\n" + license + "\n" + contributing + "\n" + tests + "\n" + badges + "\n" + userEmail + "\n" + "![](" + userProfile + ")";
+    
   = answers;
   
   return `
- ${badges}
+  
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit-150x33.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
 # ${title}
 
@@ -28,8 +27,15 @@ ${description}
 ### Link for the project
 ${url}
 
-### User story
-${userStory}
+## Table of Contents
+* [License](#license)
+* [Installation](#installation)
+* [Useage](#useage)
+* [Contribute](#contribute)
+
+## License
+
+${license}
 
 ### Installation
 
@@ -41,15 +47,16 @@ ${usage}
 
 ## Contribution
 
-${contribution}
+${contribute}
 
-## License
-
-${license}
+### User story
+${userStory}
 
 ## Tests
 
 ${tests}
+
+${userEmail}
 
 ${userProfile}
 

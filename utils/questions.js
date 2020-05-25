@@ -11,12 +11,6 @@ module.exports = {
             message: "Please provide your email address"
         },
         {
-            type: "input",
-            name: "badges",
-            message: "Please include a badge."
-
-        },
-        {
 
             type: "input",
             name: "title",
