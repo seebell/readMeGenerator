@@ -1,10 +1,10 @@
 
  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit-150x33.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
-# Good read me generator
+# Readme generator
 
 ## Description
-it's a project to help the user create a good read me
+this is an app to help the user create a read me
 
 ### Link for the project
 https://github.com/seebell/readMeGenerator
@@ -14,7 +14,7 @@ undefined
 
 ### Installation
 
-download everything you need
+steps
 
 ## Usage
 
@@ -26,10 +26,9 @@ undefined
 
 ## License
 
-MIT
+testing
 
 ## Tests
 
 testing
-
 

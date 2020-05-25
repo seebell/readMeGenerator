@@ -1,4 +1,5 @@
 generateMarkdown = (answers) => {
+
   const {
     badges,
     title,
@@ -10,8 +11,11 @@ generateMarkdown = (answers) => {
     contribution,
     license,
     tests,
+    userProfile
     }
-    = answers;
+
+  // let answers = title + "\n" + description + "\n" + installation + "\n" + usage + "\n" + license + "\n" + contributing + "\n" + tests + "\n" + badges + "\n" + userEmail + "\n" + "![](" + userProfile + ")";
+  = answers;
   
   return `
  ${badges}
@@ -47,6 +51,7 @@ ${license}
 
 ${tests}
 
+${userProfile}
 
 `;
 }

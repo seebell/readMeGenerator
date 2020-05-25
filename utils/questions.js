@@ -2,6 +2,16 @@ module.exports = {
     questions: [
         {
             type: "input",
+            name: "username",
+            message: "What is your Github username?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please provide your email address"
+        },
+        {
+            type: "input",
             name: "badges",
             message: "Please include a badge."
 
@@ -26,7 +36,7 @@ module.exports = {
         },
         {
             type: "input",
-            name: "url",
+            name: "userStory",
             message: "Please provide a brief user story including a user role, reason and goal of the application."
         },
         {
@@ -42,13 +52,13 @@ module.exports = {
         {
             type: "input",
             name: "license",
-            message: "The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use https://choosealicense.com/"
+            message: "The last section of a good README is a license. This lets other developers know what they can and cannot do with your project."
 
         },
         {
             type: "input",
             name: "contributing",
-            message: "If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The Contributor Covenant is an industry standard, but you can always write your own."
+            message: "If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so."
 
         },
         {
