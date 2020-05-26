@@ -2,13 +2,13 @@
   
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit-150x33.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
-# nsg'.hrh4
+# Read Me Generator
 
 ## Description
-wdnfellgw
+This is a project to help user to create a good read me
 
 ### Link for the project
-jwndkglg
+https://github.com/seebell/readMeGenerator
 
 ## Table of Contents
 * [License](#license)
@@ -22,22 +22,22 @@ MIT
 
 ### Installation
 
-abdenfkrg
+Run npm i on node, also install inquirer and axios
 
 ## Usage
 
-nslgmlrh
+coming soon
 
 ## Contribution
 
-knsg;r4
+Please open an issue first and reach me out for guidance
 
 ### User story
-qjbdkgkr
+As a developer, I want an app that would help me create a good read me file, so that I can describe my project properly
 
 ## Tests
 
-kbdskfbgkr
+Coming soon
 
 ## Project by Sibel
   ![](https://avatars2.githubusercontent.com/u/60329088?v=4)<br>
