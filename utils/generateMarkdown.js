@@ -29,7 +29,7 @@ ${url}
 ## Table of Contents
 * [License](#license)
 * [Installation](#installation)
-* [Useage](#useage)
+* [Usage](#usage)
 * [Contribution](#contribution)
 
 ## License

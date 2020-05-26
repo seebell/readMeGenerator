@@ -19,7 +19,7 @@ async function init() {
         const { data } =repo;
         const { name, avatar_url } = data;
 
-        const markdown =await generateMarkdown({
+        const markdown =await generateMarkdown({ 
             name,
             email, 
             avatar_url,

@@ -5,7 +5,7 @@
 # Read Me Generator
 
 ## Description
-This is a project to help user to create a good read me
+This is an app to help the user create a good read me file by asking questions on terminal with node.js
 
 ### Link for the project
 https://github.com/seebell/readMeGenerator
@@ -13,7 +13,7 @@ https://github.com/seebell/readMeGenerator
 ## Table of Contents
 * [License](#license)
 * [Installation](#installation)
-* [Useage](#useage)
+* [Usage](#usage)
 * [Contribution](#contribution)
 
 ## License
@@ -22,22 +22,22 @@ MIT
 
 ### Installation
 
-Run npm i on node, also install inquirer and axios
+Npm i first; also dotenv, axios and inquirer will need to be installed
 
 ## Usage
 
-coming soon
+Index.js file will need to be opened on the terminal; with command node index.js you can start the process. You will be prompted to answer questions. When everything is completed, you'll see the message 'Successfully wrote Readme.md'
 
 ## Contribution
 
-Please open an issue first and reach me out for guidance
+It would be nice if you create the issue first; also you can always reach me to ask questions
 
 ### User story
-As a developer, I want an app that would help me create a good read me file, so that I can describe my project properly
+As a developer, I want an app that would help me create a good read me file, so that I can describe my projects properly
 
 ## Tests
 
-Coming soon
+testing
 
 ## Project by Sibel
   ![](https://avatars2.githubusercontent.com/u/60329088?v=4)<br>
