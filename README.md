@@ -2,44 +2,43 @@
   
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit-150x33.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
-# Readme generator
+# nsg'.hrh4
 
 ## Description
-this is a project to help the user create a good read me
+wdnfellgw
 
 ### Link for the project
-https://github.com/seebell/readMeGenerator
+jwndkglg
 
 ## Table of Contents
 * [License](#license)
 * [Installation](#installation)
 * [Useage](#useage)
-* [Contribute](#contribute)
+* [Contribution](#contribution)
 
 ## License
 
-MIt license
+MIT
 
 ### Installation
 
-npm init, npm i
+abdenfkrg
 
 ## Usage
 
-coming soon
+nslgmlrh
 
 ## Contribution
 
-undefined
+knsg;r4
 
 ### User story
-As a developer, I want an app to help me create a read me file, so that I can describe my project properly
+qjbdkgkr
 
 ## Tests
 
-testing
+kbdskfbgkr
 
-undefined
-
-undefined
-
+## Project by Sibel
+  ![](https://avatars2.githubusercontent.com/u/60329088?v=4)<br>
+  #### Email adress: sibsel_cidem@hotmail.com<br>

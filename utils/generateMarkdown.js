@@ -1,4 +1,4 @@
-generateMarkdown = (answers) => {
+generateMarkdown = (data) => {
   const {
     title,
     description,
@@ -6,14 +6,13 @@ generateMarkdown = (answers) => {
     userStory,
     installation,
     usage,
-    contribute,
+    contribution,
     license,
-    tests,
-    userEmail,
-    userProfile
+    tests
+    
     }
     
-  = answers;
+  = data;
   
   return `
   
@@ -31,7 +30,7 @@ ${url}
 * [License](#license)
 * [Installation](#installation)
 * [Useage](#useage)
-* [Contribute](#contribute)
+* [Contribution](#contribution)
 
 ## License
 
@@ -47,7 +46,7 @@ ${usage}
 
 ## Contribution
 
-${contribute}
+${contribution}
 
 ### User story
 ${userStory}
@@ -56,10 +55,9 @@ ${userStory}
 
 ${tests}
 
-${userEmail}
-
-${userProfile}
-
+## Project by ${data.name}
+  ![](${data.avatar_url})<br>
+  #### Email adress: ${data.email}<br>
 `;
 }
 

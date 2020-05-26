@@ -1,7 +1,8 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require('util');
-const api = require('./utils/api');
+const axios = require("axios");
+// const api = require('./utils/api');
 
 // username = answers.username;
 //     api.getUser(username).then(answers); {
@@ -20,7 +21,29 @@ const generateMarkdown = require("./utils/generateMarkdown");
 async function init() {
     try {
         const answers = await inquirer.prompt(questions);
-        await writeFileAsync("Readme.md", generateMarkdown(answers));
+
+        const { username, email, title, description, url, userStory, installation, usage, contribution, license, tests } = answers;
+        
+        const repo = await axios.get(`https://api.github.com/users/${username}`);
+        const { data } =repo;
+        const { name, avatar_url } = data;
+
+        const markdown =await generateMarkdown({
+            name,
+            email, 
+            avatar_url,
+            title,
+            description,
+            url,
+            userStory,
+            installation,
+            usage,
+            contribution,
+            license,
+            tests,
+    
+        });
+        await writeFileAsync("Readme.md", markdown);
         console.log("Successfully wrote Readme.md!")
     }
     catch(err) {

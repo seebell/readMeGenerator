@@ -44,14 +44,14 @@ module.exports = {
             message: "Provide instructions and examples for use. Include screenshots as needed."   
         },
         {
-            type: "input",
+            type: "list",
+            message: "What is your License?",
             name: "license",
-            message: "The last section of a good README is a license. This lets other developers know what they can and cannot do with your project."
-
+            choices: ["MIT", "GPLv2", "Apache", "other"]
         },
         {
             type: "input",
-            name: "contributing",
+            name: "contribution",
             message: "If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so."
 
         },
