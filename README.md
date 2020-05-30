@@ -26,7 +26,7 @@ Npm i first; also dotenv, axios and inquirer will need to be installed
 
 ## Usage
 
-Index.js file will need to be opened on the terminal; with command node index.js you can start the process. You will be prompted to answer questions. When everything is completed, you'll see the message 'Successfully wrote Readme.md'
+You can find screenshots examples in the screenshot folder at the github repo.
 
 ## Contribution
 
@@ -37,7 +37,7 @@ As a developer, I want an app that would help me create a good read me file, so 
 
 ## Tests
 
-testing
+Testing
 
 ## Project by Sibel
   ![](https://avatars2.githubusercontent.com/u/60329088?v=4)<br>
