@@ -26,11 +26,11 @@ Npm i first; also dotenv, axios and inquirer will need to be installed
 
 ## Usage
 
-You can find screenshots examples in the screenshot folder at the github repo.
+Please refer to screenshots in the screenshots folder at the github repo page.
 
 ## Contribution
 
-It would be nice if you create the issue first; also you can always reach me to ask questions
+It would be nice if you create an issue first; also you can always reach me to ask questions
 
 ### User story
 As a developer, I want an app that would help me create a good read me file, so that I can describe my projects properly
